@@ -1,7 +1,7 @@
 def swap(i, j):                    
     sq[i], sq[j] = sq[j], sq[i] 
 
-def heapify(end,i):   
+def heapifyy(end,i):   
     l=2 * i + 1  
     r=2 * (i + 1)   
     max=i   
@@ -11,16 +11,16 @@ def heapify(end,i):
         max = r   
     if max != i:   
         swap(i, max)   
-        heapify(end, max)   
+        heapifyy(end, max)   
 
 def heap_sort():     
     end = len(sq)   
     start = end // 2 - 1 # use // instead of /
     for i in range(start, -1, -1):   
-        heapify(end, i)   
+        heapifyy(end, i)   
     for i in range(end-1, 0, -1):   
         swap(i, 0)   
-        heapify(i, 0)
+        heapifyy(i, 0)
 
 sq = input("Enter numbers with spaces: ")
 sq = list(map(int, sq.split()))
