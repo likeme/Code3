@@ -1,9 +1,5 @@
 def swap(i, j):                    
     sq[i], sq[j] = sq[j], sq[i] 
-    def swap(i, j):                    
-    sq[i], sq[j] = sq[j], sq[i] 
-    def swap(i, j):                    
-    sq[i], sq[j] = sq[j], sq[i] 
 
 def heapifyy(end,i):   
     l=2 * i + 1  
