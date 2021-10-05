@@ -28,3 +28,7 @@ sq = list(map(int, sq.split()))
 
 heap_sort()
 print(sq)
+heap_sort()
+print(sq)
+heap_sort()
+print(sq)https://github.com/kiss-me1997/Heap-sort/pull/3
